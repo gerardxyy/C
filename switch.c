@@ -2,7 +2,7 @@
 
 int opcion;
 
-main(){
+int main(){
     printf("Ingresa el dia de la semana en numero\n");
     scanf("%d",&opcion);
 
