@@ -15,7 +15,7 @@
 
         printf("Es impar");
     }
-
+    return 0;
 }
     
 

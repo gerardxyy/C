@@ -32,4 +32,6 @@ main(){
     obtenerdatos();
     calcularpromedio();
     mostrarpromedio();
+
+    return 0;
 }

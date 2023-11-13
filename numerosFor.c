@@ -17,6 +17,8 @@ main(){
 else{
     printf("\n\"Numero ivalido\"\n");
 }
+
+return 0;
 }
 
 

@@ -45,4 +45,6 @@ int main(){
         printf("Numero invalido, solo numeros del 1 al 8.");
         break;
     }
+
+    return 0;
 }

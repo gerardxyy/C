@@ -6,7 +6,7 @@ main(){
     printf("Ingresa el numero para verificar si es positivo o negativo\n");
     scanf("%f",&num);
 
-    if(num>=1){
+    if(num>0){
         printf("Es positivo.\n");
     }
     else if (num==0){
@@ -15,4 +15,6 @@ main(){
     else if (num<0){
         printf("Es negativo.");
     }
+
+    return 0;
 }
