@@ -1,0 +1,27 @@
+    char:
+        Tamaño: 1 byte
+        printf y scanf: %c
+
+    int:
+        Tamaño: 4 bytes (puede variar según la arquitectura)
+        printf y scanf: %d
+
+    long int:
+        Tamaño: 4 bytes (puede variar según la arquitectura)
+        printf y scanf: %ld
+
+    long long int:
+        Tamaño: 8 bytes (puede variar según la arquitectura)
+        printf y scanf: %lld
+
+    float:
+        Tamaño: 4 bytes
+        printf y scanf: %f
+
+    double:
+        Tamaño: 8 bytes
+        printf y scanf: %lf
+
+    long double:
+        Tamaño: Puede variar (generalmente 10 o 12 bytes)
+        printf y scanf: %Lf

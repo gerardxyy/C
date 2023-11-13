@@ -28,7 +28,7 @@ mostrarpromedio(){
 }
 
 
-main(){
+int main(){
     obtenerdatos();
     calcularpromedio();
     mostrarpromedio();
