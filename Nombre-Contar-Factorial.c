@@ -1,12 +1,14 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main(){
 
     printf("¿Que deseas hacer?\n 1-Mostrar tu nombre una serie de veces\n 2- Contar hasta determinado numero\n 3- Calcular Factorial\n\n");
-
+    
     int opc;
     scanf("%d",&opc);
-
+    system("clear");
+    
     switch (opc){
         case 1:
         char nom [10];
