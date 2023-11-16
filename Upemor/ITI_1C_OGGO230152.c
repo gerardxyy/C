@@ -4,14 +4,14 @@
 int opc;
 
 int main(){
-  printf("\n\tGerardo Xavier Ortiz Gonzalez\n\n1.- Desarrollar un algoritmo que lea un numero entero positivo y saber si es par o impar\n\n 2.- Leer dos números enteros positivos y determinar si el último dígito de un número es igual al último dígito del otro\n\n 3.- Leer dos números y determinar cuál de los dos es mayor.\n\n 4. Leer un número entero positivo y determinar si es un número primo.\n\n 5.- Leer un número entero menor que 50 que sea positivo y determinar si es un número impar.\n\n 6.- Dado el sueldo de un trabajador, aplíquele un aumento del 15 si su sueldo es inferior a $1000, y un 12 en caso contrario. Imprima el sueldo del trabajador.\n\n");
+  printf("\n\tGerardo Xavier Ortiz Gonzalez\n\t1C ITI\n\n1.- Desarrollar un algoritmo que lea un numero entero positivo y saber si es par o impar\n\n 2.- Leer dos números enteros positivos y determinar si el último dígito de un número es igual al último dígito del otro\n\n 3.- Leer dos números y determinar cuál de los dos es mayor.\n\n 4. Leer un número entero positivo y determinar si es un número primo.\n\n 5.- Leer un número entero menor que 50 que sea positivo y determinar si es un número impar.\n\n 6.- Dado el sueldo de un trabajador, aplíquele un aumento del 15 si su sueldo es inferior a $1000, y un 12 en caso contrario. Imprima el sueldo del trabajador.\n\n");
   scanf("%d",&opc);
 
     /*Lo hize con un switch para no hacer tantos programas profe XD*/
 
  switch (opc){
         
-        /*Programa num1*/
+        /* el 1*/
 
         case 1:
         system("clear");
@@ -27,13 +27,14 @@ int main(){
                 }
         break;
 
-        /* Programa numdos*/
+        /* El dos */
+
         case 2:
         system("clear");
         int i,j;
         printf("Ingresa dos numeros\n");
         scanf("%d %d",&i,&j);
-        if (i=j){
+        if (j==i){
                 system("clear");
                 printf("Son numeros iguales");
 
@@ -42,7 +43,7 @@ int main(){
                 printf("Son numeros diferentes");
                 }
         break;
-
+                /* El 3 */
         case 3:
         system("clear");
         int n1,n2;
@@ -60,7 +61,9 @@ int main(){
                 printf("Los numeros son iguales XD");
                 }
         break;
-                
+
+               /* El 4 */ 
+
                 case 4:
                 system("clear");
             printf("Ingresa el numero para determinar si es primo: \n");
@@ -85,8 +88,49 @@ int main(){
                 }
             }
             break;
+
+            /*el 5*/
+
+            case 5:
+            system("clear");
+
+            printf("Ingresa un numero\n");
+            scanf("%d",&num);
+                system("clear");
+            if (num<=50 && num % 2==0){
+            printf("Es par");
+            }
+
+            else if  (num<=50 && num % 2==1){
+                    printf("Es impar");
+                    }
+
+            else if (num>50){
+                        printf("Numero invalido, solo MENORES DE 50 :(");
+                    }
+                    break;
+
+            /* el 6 */
+
+            case 6:
+            int salario,sueldofin;
+
+            system("clear");
+            printf("Ingrese el sueldo del trabajador\n");
+            scanf("%d",&salario);
+
+            if (salario<1000){
+                sueldofin = (salario * 1.15);
+                printf("Tu sueldo final es de: %d",sueldofin);
+                    }
+            else if (salario>1000){
+                        sueldofin = (salario * 1.12);
+                        printf("Tu sueldo final es de:  %d",sueldofin);
+                    }
+                    break;
+
 }
 return 0;
 
-            }
-
+            
+}
