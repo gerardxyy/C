@@ -30,7 +30,7 @@ int main(){
         printf("Hasta que numero deseas contar?");
         scanf("%d",j);
         for(i=1; i<=j; i++){
-            printf("%d\n",j);
+            printf("%d\n",i);
         }
         break;
 
@@ -42,7 +42,7 @@ int main(){
         for (i = 1; i <= fac; i++) {
         res *= i;
     }
-
+        system("clear");
     printf("El factorial de %.0Lf es %.0Lf\n", fac, res);
         break;
 
