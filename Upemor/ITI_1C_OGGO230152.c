@@ -14,17 +14,23 @@ int main(){
         /* el 1*/
 
         case 1:
+        
         system("clear");
         printf("Ingresa tu numero\n");
         int num;
         scanf("%d",&num);
         system("clear");
+        if (num>0){
         if (num % 2==0){
                 printf("Es par\n");
          }
         else{
                 printf("Es impar\n");
                 }
+         }
+         else{
+                 printf("Numero invalido");
+         }
         break;
 
         /* El dos */
