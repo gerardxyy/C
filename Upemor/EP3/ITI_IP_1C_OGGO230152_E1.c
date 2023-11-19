@@ -45,5 +45,4 @@ scanf("%f",&D);
         }
 
 return 0;
-
         }

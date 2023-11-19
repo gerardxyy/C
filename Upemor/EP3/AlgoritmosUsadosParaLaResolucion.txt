@@ -1,4 +1,4 @@
-1. Problema de la esfera
+# Problema de la esfera
 
 1.- Conocer el peso de la esfera A
 2.- Conocer el peso de la esfera B
@@ -8,4 +8,14 @@
 6.- Comparar la esfera B con la esfera A y la D, si todas son iguales entonces la esfera diferente es la C
 5.- Comparar la esfera C con la esfera D  y la B, si todas son iguales entonces la esfera diferente es la A
 6.- Mostrar el resultado obtenido junto con el peso diferente de la esfera
+
+# Problema 2
+1.- Pedir los cuatro datos para asiganrlos a su respectiva variable
+2.- Leer los cuatro datos
+3.- Comparar los datos de n1 con n2,n3 y n4, si es mas grande entonces n1 es el mas grande
+4.- Comparar los datos de n2 con n1,n3y n4, si es mas grande entonces n2 es el mas grande 
+5.- Comparar los datos de n3 con n1,n2 y n4, si es mas grande entonces n3 es el mas grande
+6.- Comparar los datos de n4 con n1,n2 y n3, si es mas grande entonces n4 es el mas grande
+7.- Mostrar el resultado obtenido segun el caso correcto
+8.- Fin:)
 
