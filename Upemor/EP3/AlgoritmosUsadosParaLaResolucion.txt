@@ -19,3 +19,18 @@
 7.- Mostrar el resultado obtenido segun el caso correcto
 8.- Fin:)
 
+#Problema 3
+1.- Primero se ingresan los 4 numeros por teclado
+2.- Comparar si n1 es mayor que n2 y mayor que n3 y despues que n4, si es asi entonces el numero mas grande es el n1, si no se cumple omitir
+3.- Comparar si n2 es mayor que n1 y mayor que n3 y despues que n4, si es asi entonces el numero mas grande es el n2, si no se cumple omitir
+4.- Comparar si n3 es mayor que n2 y mayor que n1 y despues que n4, si es asi entonces el numero mas grande es el n3, si no se cumple omitir
+5.- Comparar si n4 es mayor que n1 y mayor que n2 y despues que n3, si es asi entonces el numero mas grande es el n3 
+6.- Comparar si n1 es menor que n2 y menor que n3 y despues que n4, si es asi entonces el numero mas chico es el n1, si no se cumple omitir
+7.- Comparar si n2 es menor que n1 y menor que n3 y despues que n4, si es asi entonces el numero mas chico es el n2, si no se cumple omitir
+8.- Comparar si n3 es menor que n2 y menor que n1 y despues que n4, si es asi entonces el numero mas chico es el n3, si no se cumple omitir
+9.- Comparar si n4 es menor que n1  y menor que n2 y despues que n3, si es asi entonces el numero mas chico es el n4, si no se cumple omitir
+10.- Limpiar la pantalla
+11.- Hacer la suma de la variable menor + mayor y guardarla en la variable res
+12.- Mostrar en pantalla la variable res
+
+
