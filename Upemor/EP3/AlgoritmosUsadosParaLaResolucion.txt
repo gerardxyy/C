@@ -1,0 +1,11 @@
+1. Problema de la esfera
+
+1.- Conocer el peso de la esfera A
+2.- Conocer el peso de la esfera B
+3.- Conocer el peso de la esfera C
+4.- Conocer el peso de la esfera D
+5.- Comparar la esfera A con la esfera B y la C, si todas son iguales entonces la esfera diferente es la D
+6.- Comparar la esfera B con la esfera A y la D, si todas son iguales entonces la esfera diferente es la C
+5.- Comparar la esfera C con la esfera D  y la B, si todas son iguales entonces la esfera diferente es la A
+6.- Mostrar el resultado obtenido junto con el peso diferente de la esfera
+
