@@ -33,4 +33,14 @@
 11.- Hacer la suma de la variable menor + mayor y guardarla en la variable res
 12.- Mostrar en pantalla la variable res
 
+# Problema 4
+1.- Declarar las variables de n, i, j, decimalN
+2.- Declarar la variable octal y ponerle un limite de datos
+3.- Ingresar el numero decimal y leerlo
+4.- Iniciar la variable i en 0 para usarla en el ciclo while
+5.- Crear un ciclo que se repita hasta mientras el numero decimal sea diferente a 0
+6.- Hacer que el valor de la variable octal [i] sea igual al residuo de su division entre 8
+7.- Dividir el numero decimal entre 8
+8.- Aumentar +1 en la variable i y repetir desde el paso 6 hasta que el residuo sea igual a 0
+9.- Crear un ciclo for para que muestre el ultimo del ciclo while
 
