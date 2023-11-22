@@ -1,0 +1,4 @@
+Char = Guarda un caracter, SOLO UNA LETRA %c
+Int = Guarda un numero de tipo entero menor a 32000 %d o %i
+String = Este si puede guardar mas letras, como nombres o ese tipo de cosas %s
+Bool = se usan en la desicion para decir si es falso o veraddero, se usa la biblioteca #stdbool 
