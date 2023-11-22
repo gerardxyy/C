@@ -1,12 +1,13 @@
 #include <stdio.h>
+#include <stdlib.h>
 
-int main(){
-
+int main(void){
         int n;
 
-        puts("Introduce tu numero");
+        system("clear");
+        puts("\tIntroduce tu numero");
         scanf("%d",&n);
-        printf("El numero octal es %o\n",n);
+        printf("\tEl numero octal es %o\n",n);
 
 return 0;
-        }
+}
