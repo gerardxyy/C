@@ -1,30 +1,12 @@
 #include <stdio.h>
 
-   int main() {
-    int decimalN,i,j;
+int main(){
 
-    puts("Ingrese un número decimal: ");
-    scanf("%d", &decimalN);
+        int n;
 
- int octalNumber[100];
- i = 0;
+        puts("Introduce tu numero");
+        scanf("%d",&n);
+        printf("El numero octal es %o\n",n);
 
-    while (decimalN != 0) {
-        octalNumber[i] = decimalN % 8;
-        decimalN /= 8;
-        i++;
-    }
-
-    printf("El equivalente octal es: ");
-    for (j = i - 1; j >= 0; j--) {
-        printf("%d", octalNumber[j]);
-    }
-    printf("\n");
-    return 0;
-
-}
-
-
- 
-
-   
+return 0;
+        }
