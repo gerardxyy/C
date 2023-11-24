@@ -1,20 +1,30 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include <math.h>
 
-int main (void){
-        system("clear");
-        float lado1,lado2,lado3,base,altura,area;
-        puts("\tIngresa los 3 lados de tu triangulo"); scanf("%f %f %f",&lado1,&lado2,&lado3);
+// Función para verificar y clasificar el triángulo
+void clasificarTriangulo(int a, int b, int c) {
+    
+}
 
-        if(lado1=lado2=lado3){
-                area= (lado1*lado2)/2;
-                printf("\nTipo de triangulo: EQUILATERO\nArea: %.2f\n",area);
-                
-                }
+int main() {
+    // Ingresar los tres lados del triángulo
+    int a, b, c;
+    printf("Ingrese los tres lados del triángulo (separados por espacios): ");
+    scanf("%d %d %d", &a, &b, &c);
 
-
-
-
-
-return 0;
+    if (a + b > c && a + c > b && b + c > a) {
+        // Verificar el tipo de triángulo
+        if (a == b && b == c) {
+            printf("El triángulo es equilátero.\n");
+        } else if (a == b || a == c || b == c) {
+            printf("El triángulo es isósceles.\n");
+        } else {
+            printf("El triángulo es escaleno.\n");
         }
+    } else {
+        printf("Los valores no forman un triángulo.\n");
+    }
+
+    return 0;
+}
+
