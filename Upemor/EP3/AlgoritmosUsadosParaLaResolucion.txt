@@ -1,5 +1,4 @@
 # Problema de la esfera
-
 1.- Conocer el peso de la esfera A
 2.- Conocer el peso de la esfera B
 3.- Conocer el peso de la esfera C
