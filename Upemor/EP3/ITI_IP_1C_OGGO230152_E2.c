@@ -1,10 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
-
-/*        Programa numero 2 
-    Gerardo Xavier Ortiz Gonzalez
-                   1C ITI
-*/
+/* Gerardo Xavier Ortiz Gonzalez 
+        1C ITI                  */
 
 int main(){
         float n1,n2,n3,n4;

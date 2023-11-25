@@ -1,14 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/* Gerardo Xavier Ortiz Gonzalez 
+        1C ITI                  */
+
 int main(){
-//Añado esto para borrar los comandos anteriores del gcc xd
 
 float A,B,C,D;
 
 system ("clear");
 
-//La funcion puts es mas corta que el printf y mas simple (cuando no quiero mostrar ningun dato)
 
 puts("Peso de la esfera 1: \n");
 scanf("%f",&A);

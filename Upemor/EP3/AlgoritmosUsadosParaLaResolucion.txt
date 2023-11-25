@@ -43,3 +43,5 @@
 8.- Aumentar +1 en la variable i y repetir desde el paso 6 hasta que el residuo sea igual a 0
 9.- Crear un ciclo for para que muestre el ultimo del ciclo while
 
+# Problema 5
+
