@@ -44,4 +44,6 @@
 9.- Crear un ciclo for para que muestre el ultimo del ciclo while
 
 # Problema 5
-
+1.- Ingresar los tres datos del triangulo comenzando por la base y despues la altura
+2.- Guardarlos en las variables a b y c
+3.- 
