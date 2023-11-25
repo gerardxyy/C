@@ -1,28 +1,28 @@
 #include <stdio.h>
 #include <math.h>
-
-// Función para verificar y clasificar el triángulo
-void clasificarTriangulo(int a, int b, int c) {
-    
+#include <stdlib.h>
+/* Gerardo Xavier Ortiz Gonzalez
+        1C ITI */
+void clasificarTriangulo(int a, int b, int c) {    
 }
 
 int main() {
-    // Ingresar los tres lados del triángulo
-    int a, b, c;
-    printf("Ingrese los tres lados del triángulo (separados por espacios): ");
+        system("clear");
+    int a,b,c,area;
+                
+    puts("Ingresa los tres lados del triangulo\nCOMENZANDO POR LA BASE Y DESPUES LA ALTURA:\n ");
     scanf("%d %d %d", &a, &b, &c);
-
-    if (a + b > c && a + c > b && b + c > a) {
-        // Verificar el tipo de triángulo
-        if (a == b && b == c) {
-            printf("El triángulo es equilátero.\n");
-        } else if (a == b || a == c || b == c) {
-            printf("El triángulo es isósceles.\n");
+            area=(a*b)/2;
+    if (a+b>c && a+c>b && b+c>a) {
+        if (a==b && b==c) {
+            printf("El triángulo es equilatero\nArea: %d\n",area);
+        } else if (a==b || a==c || b == c) {
+            printf("el triangulo es isosceles.\nArea: %d\n",area);
         } else {
-            printf("El triángulo es escaleno.\n");
+            printf("el triangulo es escaleno.\nArea: %d\n",area);
         }
     } else {
-        printf("Los valores no forman un triángulo.\n");
+        printf("los valores no forman un triangulo.\n");
     }
 
     return 0;
