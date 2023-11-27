@@ -46,4 +46,14 @@
 # Problema 5
 1.- Ingresar los tres datos del triangulo comenzando por la base y despues la altura
 2.- Guardarlos en las variables a b y c
-3.- 
+3.- Declarar que el area sera igual a la division de base por altura entre dos
+4.- Comparar los lados para ver si cumple con las caracteristicas de un triaugnulo equilatero y mostrar el area 
+5.- Comparar los lados para ver si cumple con las caracteristicas de un triaugnulo isoceles y mostrar el area 
+6.- Comparar los lados para ver si cumple con las caracteristicas de un triaugnulo escaleno y mostrar el area 
+7.- Si no se cumple con estos pasos se muestra el mensaje "No es un triangulo"
+
+# Problema 6
+1.- Declarar las variables x y y
+2- Ingresar las coordenadas de x y luego de y
+3.- multiplicar el valor de x+5 por 3 para obtener el valor esperado de y
+4.- si es y es igual al valor esperado de y entonces el punto pertenece a la recta
