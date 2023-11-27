@@ -57,3 +57,4 @@
 2- Ingresar las coordenadas de x y luego de y
 3.- multiplicar el valor de x+5 por 3 para obtener el valor esperado de y
 4.- si es y es igual al valor esperado de y entonces el punto pertenece a la recta
+5.- si es y no es igual al valor esperado de y entonces el punto no pertenece a la recta
