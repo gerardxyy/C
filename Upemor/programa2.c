@@ -2,12 +2,11 @@
 
 int main(){
 
-        char nom [10];
-        
-        printf("Escribe tu nombre y te dire como te llamas \n");
-        scanf("%9s",&nom);
+        int num;
 
-        printf("Tu nombre es %9s",nom);
+        puts("Ingres el numero en decimal");
+        scanf("%d",&num);
+        printf("Octa: %o",num);       
 
 
 
