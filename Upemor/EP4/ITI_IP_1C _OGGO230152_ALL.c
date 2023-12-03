@@ -59,7 +59,8 @@ int main() {
     int opc;
     system("clear");
 
-puts("Elige el programa a ejecutar");
+puts("Elige el programa a ejecutar\n");
+puts("1.- Problema esferas\n2.-Programa que analiza los triangulos\n3.-Ordenada de Y y abscisa de X");
 scanf("%d",&opc);
 switch(opc){
 case 1:
