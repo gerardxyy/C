@@ -1,0 +1,21 @@
+# Funcion 1 
+1. Se mandan las variables de A B C D del programa main a la funcion 
+2. Se compara si la esfera A y B son iguales y despues si la B y C son iguales y si se cumple se muestra que la esfera diferente es la D y se muestra su peso
+3. Se compara si la esfera A y C son iguales y despues si la C y D son iguales y si se cumple se muestra que la esfera diferente es la B y se muestra su peso
+4. Se compara si la esfera B y D son iguales y despues si la D y C son iguales y si se cumple se muestra que la esfera diferente es la A y se muestra su peso
+5. Se compara si la esfera A y B son iguales y despues si la B y D son iguales y si se cumple se muestra que la esfera diferente es la C y se muestra su peso
+
+# Funcion 2
+1. La funcion pide al usuario que ingrese los datos de los 3 lados del triangulo a evaluar, los lee y almacena en sus respectivas variables
+2. Se declara que el area sera igual a a*b entre 2
+3. se evalua si la suma de sus lados forma un triangulo
+4. Se compara si todos sus lados son iguales y si se cumple se muestra que es un trianguo equilatero y despues se calcula y muestra el area
+5. Si no se cumple se evalua si alguno de sus lados son iguales, si se hace cumple entonces corresponde a un triangulo isoceles
+6. Si no se cumplen una de las tres condicones se muestra que es un triangulo escaleno porque ninguno de sus lados es iguales
+
+# Funcion 3
+1. Recibe los valores que se tomaron en el main de la variable x y y
+2. Se declara el valor esperado de y que es igual a la multiplicacion de 3x +5
+3. Se evalua si y es igual al valor esperado 
+4. Si se cumple pertenece a la recta
+5. Si no se cumple no pertenece a la recta
